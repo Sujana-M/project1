@@ -4,6 +4,7 @@
 #include "add.h"
 
 void main()
+
 {
     char ch;
     int a, b;
@@ -29,5 +30,6 @@ void main()
                     break;
            default:
                    printf("Error in operation");
+                   
     }
 }
