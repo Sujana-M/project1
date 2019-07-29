@@ -1,0 +1,22 @@
+diff --git a/calcul.c b/calcul.c
+index bf6f749..4d4c34e 100644
+--- a/calcul.c
++++ b/calcul.c
+@@ -4,6 +4,7 @@
+ #include "add.h"
+ 
+ void main()
++
+ {
+     char ch;
+     int a, b;
+@@ -29,5 +30,6 @@ void main()
+                     break;
+            default:
+                    printf("Error in operation");
++                   
+     }
+ }
+diff --git a/change.patch b/change.patch
+new file mode 100644
+index 0000000..e69de29

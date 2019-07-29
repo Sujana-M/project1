@@ -4,9 +4,9 @@
 #include "add.h"
 
 void main()
-
 {
     char ch;
+
     int a, b;
     printf("Enter the the operation +,-,*,/");
     scanf("%c", &ch);
