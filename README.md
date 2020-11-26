@@ -1,1 +1,1 @@
-[doc](docs/abs.pdf)
+[doc](docs/abs.pdref)
