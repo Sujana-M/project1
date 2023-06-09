@@ -1,9 +1,4 @@
-
-on:
-  push:
-    branches:
-      - branch_2
-
+on: [push]
 
 jobs:
   build:
