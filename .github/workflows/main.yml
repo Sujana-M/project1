@@ -8,5 +8,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a multi-line script
       run: |
+        ./hello.sh
         echo Hi,
         echo Welcome.
