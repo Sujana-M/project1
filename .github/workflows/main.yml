@@ -17,5 +17,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         ./hello.sh
+        ./check.sh
         echo Hi,
         echo Welcome.
