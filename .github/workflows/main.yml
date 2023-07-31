@@ -1,5 +1,13 @@
-on: [push]
-
+on:
+  push:
+    branches:
+      - 'main'
+      - 'branch_1'
+  pull_request_target:
+    types: [assigned, opened, synchronize, reopened, closed]
+    branches:
+      - 'main'
+      - 'branch_1'
 jobs:
   build:
     name: Greeting
