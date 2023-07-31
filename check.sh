@@ -1,4 +1,4 @@
-#!/usr/bin/csh
+#!/usr/bin/sh
 
 echo $cwd
 touch diff.txt
