@@ -11,7 +11,8 @@ sed '/linux_app/d' diff.txt >  modified.txt
 sed -n '/.*\.h$/p;/.*\.c$/p;/.*\.S$/p;/.*\.py$/p;/.*\.mk$/p;' modified.txt > copyright.txt
 echo $pwd
 ls
-foreach line ( `cat copyright.txt`)
+for i in $(cat copyright.txt)
+do
     ./copyright_checker.py $cwd/$line >> sdl_report.txt
-end
+done
 cat sdl_report.txt
