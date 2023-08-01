@@ -17,6 +17,6 @@ echo $PWD
 ls
 for i in $(cat copyright.txt)
 do
-    ./copyright_checker.py $cwd/$line >> sdl_report.txt
+    python copyright_checker.py $cwd/$line >> sdl_report.txt
 done
 cat sdl_report.txt
